@@ -1,6 +1,8 @@
 * {
-    /* Retira a barra lateral */
+    /* Retirando o CSS aplicado pelo navegador */
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,8 +10,44 @@ body {
     background-color: #09090A;
     color: white;
 
-    display: grid;
-    place-items: center;
-
     height: 100vh;
+}
+
+header {
+    /* Colocando o botão e a Logo numa linha só */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+button {
+    /* Espaço interno do botão */
+    padding: 16px 24px;
+
+    /* Retirando o fundo, aplicando a borda e ajustando a cor do texto */
+    border: 1px solid #8B5CF6;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+
+    /* Organizando os itens dentro do botão no centro e afastando os itens com o Gap */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    /* Aplicando a fonte Inter, aumentando o tamanho e o peso */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Transição aplicada na propriedade */
+    transition: background-color .2s;
+}
+
+button:hover {
+    /* Efeito de transição para quando o mouse estiver sobre o botão */
+    background-color: #ffffff14;
+    cursor: pointer;
 }
