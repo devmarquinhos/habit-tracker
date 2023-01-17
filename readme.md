@@ -22,7 +22,7 @@ O projeto foi construído usando:
 
 ## :book: Projeto
 
-O Habits é uma aplicação para monitorar e rastrear os hábitos.
+O Habits é uma aplicação para monitorar e rastrear os hábitos. Você pode acessar ele clicando [aqui](https://devmarquinhos.github.io/habit-tracker/)
 
 ## :art: Layout
 
