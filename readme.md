@@ -1,6 +1,6 @@
 <h1 align="center" >Habits</h1>
 
-<p>Projeto desenvolvido na <a href="https://nlw.rocketseat.com.br/convite/marcos-7284">NLW Setup</a>, um evento gratuito promovido pela Rocketseat.</p>
+<p align="center">Projeto desenvolvido na <a href="https://nlw.rocketseat.com.br/convite/marcos-7284">NLW Setup</a>, um evento gratuito promovido pela Rocketseat.</p>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
