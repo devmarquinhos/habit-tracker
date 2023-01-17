@@ -1,0 +1,15 @@
+* {
+    /* Retira a barra lateral */
+    margin: 0;
+}
+
+body {
+    /* Cor do fundo, centralizando a logo e posicionando conforme a altura da tela */
+    background-color: #09090A;
+    color: white;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+}
