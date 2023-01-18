@@ -53,12 +53,14 @@ button:hover {
 }
 
 #form-habits {
+    /* Posicionando TODO o Habits */
     display: flex;
 
     padding: 0 48px;
 }
 
 .habits {
+    /* Alinhando os hábitos em coluna e colocando um espaço entre eles */
     margin-top: 60px;
 
     display: flex;
@@ -67,6 +69,7 @@ button:hover {
 }
 
 .habit {
+    /* Aumentando o emoji de tamanho e centralizando conforme o Habits */
     width: 64px;
     height: 64px;
 
