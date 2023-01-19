@@ -19,6 +19,10 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 48px;
+
+    /* Fixando o Header no topo */
+    position: fixed;
+    width: 100%;
 }
 
 button {
@@ -56,7 +60,9 @@ button:hover {
     /* Posicionando TODO o Habits */
     display: flex;
 
-    padding: 0 48px;
+    /* Ajustando o posicionamento por conta do position: fixed do header e preenchendo o espaço com o conteúdo do form */
+    padding: 182px 48px 48px;
+    width: fit-content;
 }
 
 .habits {
@@ -122,4 +128,10 @@ input:checked {
     /* Usando o pseudo-selector para estilizar o input quando marcado */
     background: #8B5CF6;
     border: 2px solid #A78BFA;
+}
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
 }
